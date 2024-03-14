@@ -10,6 +10,3 @@ def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
         return lst[0]
     else:
         return None
-
-
-print(safe_first_element.__annotations__)
